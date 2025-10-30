@@ -106,35 +106,3 @@ List Patch Jobs
 bash
 gcloud compute os-config patch-jobs list
 Verify GCS Objects
-bash
-gsutil ls gs://cloudops-play-edr-temp/
-Security
-Secrets managed via Azure Key Vault
-
-SAS tokens with limited lifetime
-
-Least privilege service accounts
-
-Automatic cleanup of temporary resources
-
-Support
-Contact CloudOps team with:
-
-VM resource ID
-
-Pipeline run ID
-
-Relevant log files
-
-Error messages
-
-Last Updated: October 2024
-Maintained by: CloudOps Team
-
-File Structure
-text
-edr-onboarding/
-├── deploy_GCP.py          # Main Python script
-├── onboarding.md          # Detailed documentation
-├── pipeline.yaml          # Azure DevOps pipeline
-└── README.md             # This file
